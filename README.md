@@ -14,6 +14,6 @@
 
 ![averageTemp.png](src%2Fmain%2Fresources%2Fimg%2FaverageTemp.png)
 
--http://localhost:8080/api/currentWeather
+- http://localhost:8080/api/currentWeather
 
 ![currentWeather.png](src%2Fmain%2Fresources%2Fimg%2FcurrentWeather.png)
