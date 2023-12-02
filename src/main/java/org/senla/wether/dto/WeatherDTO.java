@@ -1,4 +1,4 @@
-package org.senla.wether.model;
+package org.senla.wether.dto;
 
 import com.google.gson.annotations.SerializedName;
 import lombok.Builder;
@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 @Builder
-public class Weather {
+public class WeatherDTO {
     @SerializedName(value = "location")
     private Location location;
 

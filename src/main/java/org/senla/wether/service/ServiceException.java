@@ -1,4 +1,4 @@
-package by.bsuir.caramel.service;
+package org.senla.wether.service;
 
 public class ServiceException extends Exception {
 

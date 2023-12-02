@@ -18,12 +18,12 @@ import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 @SpringBootTest
-class CurrentWeatherServiceTest {
+class CurrentWeatherServiceTestDTO {
     @MockBean
     CurrentWeatherService mocCurrentWeatherService;
 
     @Autowired
-    public CurrentWeatherServiceTest(CurrentWeatherService mocCurrentWeatherService) {
+    public CurrentWeatherServiceTestDTO(CurrentWeatherService mocCurrentWeatherService) {
         this.mocCurrentWeatherService = mocCurrentWeatherService;
     }
 

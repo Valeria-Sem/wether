@@ -12,18 +12,18 @@ import java.time.LocalDate;
 @Getter
 @Setter
 @Builder
-public class CurrentWeather {
+public class CurrentWeatherEntity {
     @Id
     @Column(name = "id")
     private int id;
 
     @Basic
-    @Column(name = "id")
+    @Column(name = "date")
     private LocalDate date;
 
     @Basic
     @Column(name = "temperature")
-    private int temperature;
+    private double temperature;
 
     @Basic
     @Column(name = "wind_speed")
@@ -39,10 +39,10 @@ public class CurrentWeather {
 
     @Basic
     @Column(name = "weather_conditions")
-    private double weatherConditions;
+    private String weatherConditions;
 
-    @ManyToOne
-    @JoinColumn(name = "id_location")
-    private LocationEntity location;
+    @Basic
+    @Column(name = "location")
+    private String location;
 
 }
